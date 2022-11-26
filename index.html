@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset = "utf-8">
+        <script src="code.js" defer></script>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+    </head>
+    <body>
+        
+        <h1 class="screen"></h1>
+    
+
+        <div class="buttons">
+            <div class = "otherButtons">
+                <button class = "buttonAC" type = "button" onclick = "buttonClear()">AC</button>
+                <button class = "buttonDEL" type = "button" onclick = "buttonDelete()">DEL</button>
+            </div>
+            <div class = "calcButtons">
+                <button class = "button7" type = "button" onclick = "buttonNumClicked('7')">7</button>
+                <button class = "button8" type = "button" onclick = "buttonNumClicked('8')">8</button>
+                <button class = "button9" type = "button" onclick = "buttonNumClicked('9')">9</button>
+                <button class = "buttonDIV" type = "button" onclick = "buttonOperatorClicked('/')">/</button>
+                <button class = "button4" type = "button" onclick = "buttonNumClicked('4')">4</button>
+                <button class = "button5" type = "button" onclick = "buttonNumClicked('5')">5</button>
+                <button class = "button6" type = "button" onclick = "buttonNumClicked('6')">6</button>
+                <button class = "buttonX" type = "button" onclick = "buttonOperatorClicked('x')">X</button>
+                <button class = "button1" type = "button" onclick = "buttonNumClicked('1')">1</button>
+                <button class = "button2" type = "button" onclick = "buttonNumClicked('2')">2</button>
+                <button class = "button3" type = "button" onclick = "buttonNumClicked('3')">3</button>
+                <button class = "buttonSUB" type = "button" onclick = "buttonOperatorClicked('-')">-</button>
+                <button class = "buttonDEC" type = "button" onclick = "buttonNumClicked('.')">.</button>
+                <button class = "button0" type = "button" onclick = "buttonNumClicked('0')">0</button>
+                <button class = "buttonADD" type = "button" onclick = "buttonOperatorClicked('+')">+</button>
+                <button class = "buttonEQ" type = "button" onclick = "compute()">=</button>
+            </div>
+        </div> 
+
+    </body>
+</html>

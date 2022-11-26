@@ -1,0 +1,45 @@
+.otherButtons {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 1px;
+}
+
+.calcButtons {
+    display: grid;
+    grid-template-columns: repeat(4, 50px);
+    grid-template-rows: repeat(4, 50px);
+
+}
+
+.screen {
+    text-align: right;
+    word-break: break-all;
+    background-color: #f0f0f0;
+    margin: 10px;
+    height: 40px;
+    width: 200px;
+    border: 1px solid black;
+}
+
+.buttonAC, .buttonDEL {
+    width: 97.5px;
+    height: 40px;
+}
+
+h1 {
+    margin: 10px;
+}
+
+body {
+    min-height:100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(196, 193, 193);
+    justify-content: center;
+    align-items: center;
+}
+
+br {
+    display: block;
+    margin: 10px 0;
+ }
